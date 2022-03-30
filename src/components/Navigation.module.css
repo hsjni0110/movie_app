@@ -1,0 +1,19 @@
+.navigation_content{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em 2em;
+  flex:1;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  color: white;
+}
+.navigation_contaner{
+  width: 100vw;
+  display:flex;
+  position:fixed;
+  top:0;
+  z-index: 1;
+}
+

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "src/components/avigation.jsx": [
+      {
+        "id": "5700dd54-f765-40a8-b612-d25889f80835",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ],
+    "src/route/Home.module.css": [
+      {
+        "id": "d5551253-5520-4b4b-a87b-c72ebfed08d3",
+        "line": 1,
+        "version": 1732,
+        "index": 0
+      }
+    ]
+  }
+}

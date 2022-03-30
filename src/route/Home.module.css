@@ -1,0 +1,40 @@
+.page_container{
+  margin-top: 3em;
+}
+.home_container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+/* box가운데 정렬 방법
+부모를 relative로 두어 자식의 absolute가 부모를 기준으로 둘 수있게 함
+부모의 가로 세로 크기를 100vw,100vh로 두어 화면에 꽉차게 함
+로딩 박스를 부모의 50%로 두어 가운데 둘 수 있게 함
+*/
+.loading{
+  margin:auto;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 2.0em;
+  font-weight: bold;
+}
+/*width의 50%, height의 50% 만큼 옮기겠다는 뜻임 */
+
+/*
+가운데 정렬의 방법은
+위와 같이 부모를 꽉차게 만들고 자식을 옮기는 방법(top,left를 이용해도 좋고, flex를 이용
+하기도 함)을 제일 많이 사용함
+*/
+
+.movie_container{
+  display:grid;
+  grid-template-columns:repeat(3,3fr);
+  column-gap:20px;
+  row-gap: 60px;
+  align-items: center;
+  justify-items: center;
+}
